@@ -1,4 +1,5 @@
 https://cytelsystem.github.io/CvPersonal/
+
 # Font-End I
-## Clase 06 Propiedades CSS
+## Clase C8S Propiedades CSS
 ### Lenguaje HTML y CSS
