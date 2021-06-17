@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:ital@1&display=swap");
+
+body {
+  background: #e5e5e5;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.encabezado,
+.conth1,
+.conth2,
+footer {
+  margin: auto;
+}
+
+.encabezado {
+  background: #e5e5e5;
+  height: 189px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  background-image: url("../img/banner.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.encabezado img {
+  width: 14%;
+  height: 90%;
+}
+
+.conth1,
+.contenedor h2 {
+  background-color: #c4c4c4;
+}
+
+.conth1 {
+  height: 60px;
+  width: 1440px;
+  top: 188px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 35px;
+  letter-spacing: 12px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 1%;
+}
+
+/* MAIN */
+.contenedor {
+  background-color: white;
+  margin: auto;
+  width: 1440px;
+  padding: 40px 0 60px 0;
+}
+
+.conth2 {
+  /* height: 30px; */
+  width: 1041px;
+  left: 225px;
+  top: 352px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  color: #005677;
+  font-weight: 700;
+}
+
+h2 {
+  letter-spacing: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 4px;
+  height: 30px;
+}
+
+.contdl {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+dd {
+  margin-inline-start: 76px;
+}
+
+dd,
+li p {
+  font-family: "Lato", sans-serif;
+}
+
+span {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+/* FOOTER */
+
+footer {
+  height: 40px;
+  width: 1440px;
+  top: 987px;
+  background: #005677;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer p {
+  margin: 0 50% 0 0;
+}
+footer I {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+/* PAGINA SOBRE MÍ.Html */
+
+.sobreminav i {
+  font-size: 25px;
+}
+
+.sobremimain {
+  height: 80vh;
+  background-color: white;
+  margin: auto;
+  width: 1440px;
+}
+
+.sobremimain h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.sobremimain p {
+  text-align: justify;
+}
